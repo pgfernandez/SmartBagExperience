@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : 0,
+    "1A2F551B8658690FA1390AD50727E01B6D612700" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7A010A5C-E7E1-4281-8F60-1C831496667B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B" : "..\/..\/..\/KontaktSDK\/kontakt-ios-sdk",
+    "1A2F551B8658690FA1390AD50727E01B6D612700" : "..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmartBagExperience",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmartBagExperience.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/aeriaa\/airport-systems.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A2F551B8658690FA1390AD50727E01B6D612700"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kontaktio\/kontakt-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53B99CFFB878EC488CFEF59FD0C17CE1CEDDC83B"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AERAtAirportViewController">
+            <connections>
+                <outlet property="atAirport" destination="b3q-z6-lmp" id="6yd-IF-uSR"/>
+                <outlet property="checkin" destination="hR0-Qf-w9n" id="mB8-7C-e70"/>
+                <outlet property="myBag" destination="34Q-yy-Mc0" id="Y1h-7i-Po4"/>
+                <outlet property="myOffers" destination="zxR-wX-Mn0" id="d1b-gR-9e3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3q-z6-lmp">
+                    <rect key="frame" x="8" y="152" width="187" height="176"/>
+                    <state key="normal" image="myFlights.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="myFlights:" destination="-1" eventType="touchDown" id="NF9-tx-PCP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR0-Qf-w9n">
+                    <rect key="frame" x="179" y="152" width="188" height="179"/>
+                    <state key="normal" image="checkin.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="checkin:" destination="-1" eventType="touchDown" id="aJZ-Ow-b9c"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxR-wX-Mn0">
+                    <rect key="frame" x="179" y="339" width="188" height="186"/>
+                    <state key="normal" image="myOffers.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="myOffers:" destination="-1" eventType="touchDown" id="rYv-WT-ghe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34Q-yy-Mc0">
+                    <rect key="frame" x="8" y="336" width="187" height="180"/>
+                    <state key="normal" image="whereBag.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="myBags:" destination="-1" eventType="touchDown" id="GQF-gt-ejf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="checkin.png" width="200" height="200"/>
+        <image name="myFlights.png" width="200" height="200"/>
+        <image name="myOffers.png" width="200" height="200"/>
+        <image name="whereBag.png" width="200" height="200"/>
+    </resources>
+</document>

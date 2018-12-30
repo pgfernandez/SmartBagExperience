@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB32B61F1C5E751D007D01A3 /* libkontakt-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB32B61E1C5E74FF007D01A3 /* libkontakt-ios-sdk.a */; };
+		EB8A80F71B485016003A95A0 /* AERAtAirportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A80F51B485016003A95A0 /* AERAtAirportViewController.m */; };
+		EB8A80F81B485016003A95A0 /* AERAtAirportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8A80F61B485016003A95A0 /* AERAtAirportViewController.xib */; };
+		EB8A810D1B486EA2003A95A0 /* checkin.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A81091B486EA2003A95A0 /* checkin.png */; };
+		EB8A810E1B486EA2003A95A0 /* myFlights.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A810A1B486EA2003A95A0 /* myFlights.png */; };
+		EB8A810F1B486EA2003A95A0 /* myOffers.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A810B1B486EA2003A95A0 /* myOffers.png */; };
+		EB8A81101B486EA2003A95A0 /* whereBag.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A810C1B486EA2003A95A0 /* whereBag.png */; };
+		EBE8CEF81ACF19DA0081D62C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CEF71ACF19DA0081D62C /* main.m */; };
+		EBE8CEFB1ACF19DA0081D62C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CEFA1ACF19DA0081D62C /* AppDelegate.m */; };
+		EBE8CEFD1ACF19DA0081D62C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE8CEFC1ACF19DA0081D62C /* Images.xcassets */; };
+		EBE8CF001ACF19DA0081D62C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE8CEFE1ACF19DA0081D62C /* LaunchScreen.xib */; };
+		EBE8CF0C1ACF19DA0081D62C /* SmartBagExperienceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CF0B1ACF19DA0081D62C /* SmartBagExperienceTests.m */; };
+		EBE8CF2D1ACF4AAB0081D62C /* AERFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CF2B1ACF4AAB0081D62C /* AERFirstViewController.m */; };
+		EBE8CF2E1ACF4AAB0081D62C /* AERFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE8CF2C1ACF4AAB0081D62C /* AERFirstViewController.xib */; };
+		EBE8CF3C1ACFDFDA0081D62C /* AERCheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CF3A1ACFDFDA0081D62C /* AERCheckInViewController.m */; };
+		EBE8CF3D1ACFDFDA0081D62C /* AERCheckInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE8CF3B1ACFDFDA0081D62C /* AERCheckInViewController.xib */; };
+		EBE8CF461ACFE6C20081D62C /* AERBagStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CF441ACFE6C20081D62C /* AERBagStatusViewController.m */; };
+		EBE8CF471ACFE6C20081D62C /* AERBagStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE8CF451ACFE6C20081D62C /* AERBagStatusViewController.xib */; };
+		EBE8CF4C1ACFEDF80081D62C /* AERFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CF491ACFEDF80081D62C /* AERFlight.m */; };
+		EBE8CF4D1ACFEDF80081D62C /* AERPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CF4B1ACFEDF80081D62C /* AERPassenger.m */; };
+		EBE8CF501ACFEE4C0081D62C /* IBE.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE8CF4F1ACFEE4C0081D62C /* IBE.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE8CF061ACF19DA0081D62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE8CEEA1ACF19DA0081D62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE8CEF11ACF19DA0081D62C;
+			remoteInfo = SmartBagExperience;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB32B5E81C5E72CA007D01A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB32B5EB1C5E748B007D01A3 /* KontaktSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KontaktSDK.h; sourceTree = "<group>"; };
+		EB32B5EC1C5E748B007D01A3 /* KTKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKAction.h; sourceTree = "<group>"; };
+		EB32B5ED1C5E748B007D01A3 /* KTKActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKActionManager.h; sourceTree = "<group>"; };
+		EB32B5EE1C5E748B007D01A3 /* KTKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeacon.h; sourceTree = "<group>"; };
+		EB32B5EF1C5E748B007D01A3 /* KTKBeaconDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconDevice.h; sourceTree = "<group>"; };
+		EB32B5F01C5E748B007D01A3 /* KTKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconManager.h; sourceTree = "<group>"; };
+		EB32B5F11C5E748B007D01A3 /* KTKBeaconProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconProfile.h; sourceTree = "<group>"; };
+		EB32B5F21C5E748B007D01A3 /* KTKBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothDevice.h; sourceTree = "<group>"; };
+		EB32B5F31C5E748B007D01A3 /* KTKBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothManager.h; sourceTree = "<group>"; };
+		EB32B5F41C5E748B007D01A3 /* KTKCharacteristicDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCharacteristicDescriptor.h; sourceTree = "<group>"; };
+		EB32B5F51C5E748B007D01A3 /* KTKClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKClient.h; sourceTree = "<group>"; };
+		EB32B5F61C5E748B007D01A3 /* KTKCloudBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCloudBeacon.h; sourceTree = "<group>"; };
+		EB32B5F71C5E748B007D01A3 /* KTKCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCompany.h; sourceTree = "<group>"; };
+		EB32B5F81C5E748B007D01A3 /* KTKConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKConverter.h; sourceTree = "<group>"; };
+		EB32B5F91C5E748B007D01A3 /* KTKDataTransferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDataTransferObject.h; sourceTree = "<group>"; };
+		EB32B5FA1C5E748B007D01A3 /* KTKDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDescriptor.h; sourceTree = "<group>"; };
+		EB32B5FB1C5E748B007D01A3 /* KTKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDevice.h; sourceTree = "<group>"; };
+		EB32B5FC1C5E748B007D01A3 /* KTKEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystone.h; sourceTree = "<group>"; };
+		EB32B5FD1C5E748B007D01A3 /* KTKEddystoneDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneDevice.h; sourceTree = "<group>"; };
+		EB32B5FE1C5E748B007D01A3 /* KTKEddystoneFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneFrame.h; sourceTree = "<group>"; };
+		EB32B5FF1C5E748B007D01A3 /* KTKEddystoneRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneRegion.h; sourceTree = "<group>"; };
+		EB32B6001C5E748B007D01A3 /* KTKEddystoneTLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneTLM.h; sourceTree = "<group>"; };
+		EB32B6011C5E748B007D01A3 /* KTKEddystoneUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneUID.h; sourceTree = "<group>"; };
+		EB32B6021C5E748B007D01A3 /* KTKEddystoneURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneURL.h; sourceTree = "<group>"; };
+		EB32B6031C5E748B007D01A3 /* KTKEddystoneURLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneURLConverter.h; sourceTree = "<group>"; };
+		EB32B6041C5E748B007D01A3 /* KTKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKError.h; sourceTree = "<group>"; };
+		EB32B6051C5E748B007D01A3 /* KTKFirmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKFirmware.h; sourceTree = "<group>"; };
+		EB32B6061C5E748B007D01A3 /* KTKHexConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKHexConverter.h; sourceTree = "<group>"; };
+		EB32B6071C5E748B007D01A3 /* KTKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKLocationManager.h; sourceTree = "<group>"; };
+		EB32B6081C5E748B007D01A3 /* KTKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKManager.h; sourceTree = "<group>"; };
+		EB32B6091C5E748B007D01A3 /* KTKNumberConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberConverter.h; sourceTree = "<group>"; };
+		EB32B60A1C5E748B007D01A3 /* KTKNumberDiscreteConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberDiscreteConverter.h; sourceTree = "<group>"; };
+		EB32B60B1C5E748B007D01A3 /* KTKNumberLinearConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberLinearConverter.h; sourceTree = "<group>"; };
+		EB32B60C1C5E748B007D01A3 /* KTKPaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPaging.h; sourceTree = "<group>"; };
+		EB32B60D1C5E748B007D01A3 /* KTKPagingBeacons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingBeacons.h; sourceTree = "<group>"; };
+		EB32B60E1C5E748B007D01A3 /* KTKPagingConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingConfigs.h; sourceTree = "<group>"; };
+		EB32B60F1C5E748B007D01A3 /* KTKPagingDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingDevices.h; sourceTree = "<group>"; };
+		EB32B6101C5E748B007D01A3 /* KTKPagingVenues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingVenues.h; sourceTree = "<group>"; };
+		EB32B6111C5E748B007D01A3 /* KTKPublicAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPublicAction.h; sourceTree = "<group>"; };
+		EB32B6121C5E748B007D01A3 /* KTKPublicBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPublicBeacon.h; sourceTree = "<group>"; };
+		EB32B6131C5E748B007D01A3 /* KTKPublicVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPublicVenue.h; sourceTree = "<group>"; };
+		EB32B6141C5E748B007D01A3 /* KTKRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKRegion.h; sourceTree = "<group>"; };
+		EB32B6151C5E748B007D01A3 /* KTKServiceDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKServiceDescriptor.h; sourceTree = "<group>"; };
+		EB32B6161C5E748B007D01A3 /* KTKStringConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKStringConverter.h; sourceTree = "<group>"; };
+		EB32B6171C5E748B007D01A3 /* KTKSubordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKSubordinate.h; sourceTree = "<group>"; };
+		EB32B6181C5E748B007D01A3 /* KTKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKUser.h; sourceTree = "<group>"; };
+		EB32B6191C5E748B007D01A3 /* KTKUUIDConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKUUIDConverter.h; sourceTree = "<group>"; };
+		EB32B61A1C5E748B007D01A3 /* KTKVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKVenue.h; sourceTree = "<group>"; };
+		EB32B61B1C5E748B007D01A3 /* KTKVenueBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKVenueBase.h; sourceTree = "<group>"; };
+		EB32B61C1C5E748B007D01A3 /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
+		EB32B61E1C5E74FF007D01A3 /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkontakt-ios-sdk.a"; path = "../../../../KontaktSDK/libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
+		EB32B6201C5E75AD007D01A3 /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkontakt-ios-sdk.a"; path = "../../../../KontaktSDK/libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
+		EB8A80F41B485016003A95A0 /* AERAtAirportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERAtAirportViewController.h; sourceTree = "<group>"; };
+		EB8A80F51B485016003A95A0 /* AERAtAirportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERAtAirportViewController.m; sourceTree = "<group>"; };
+		EB8A80F61B485016003A95A0 /* AERAtAirportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AERAtAirportViewController.xib; sourceTree = "<group>"; };
+		EB8A81091B486EA2003A95A0 /* checkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkin.png; sourceTree = "<group>"; };
+		EB8A810A1B486EA2003A95A0 /* myFlights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myFlights.png; sourceTree = "<group>"; };
+		EB8A810B1B486EA2003A95A0 /* myOffers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myOffers.png; sourceTree = "<group>"; };
+		EB8A810C1B486EA2003A95A0 /* whereBag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whereBag.png; sourceTree = "<group>"; };
+		EB8D8F7E1B905F5300F7B6F3 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		EBE8CEF21ACF19DA0081D62C /* SmartBagExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBagExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE8CEF61ACF19DA0081D62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE8CEF71ACF19DA0081D62C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBE8CEF91ACF19DA0081D62C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBE8CEFA1ACF19DA0081D62C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBE8CEFC1ACF19DA0081D62C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBE8CEFF1ACF19DA0081D62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBE8CF051ACF19DA0081D62C /* SmartBagExperienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBagExperienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE8CF0A1ACF19DA0081D62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE8CF0B1ACF19DA0081D62C /* SmartBagExperienceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartBagExperienceTests.m; sourceTree = "<group>"; };
+		EBE8CF171ACF1A4A0081D62C /* SmartBagExperience.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SmartBagExperience.entitlements; sourceTree = "<group>"; };
+		EBE8CF2A1ACF4AAB0081D62C /* AERFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERFirstViewController.h; sourceTree = "<group>"; };
+		EBE8CF2B1ACF4AAB0081D62C /* AERFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERFirstViewController.m; sourceTree = "<group>"; };
+		EBE8CF2C1ACF4AAB0081D62C /* AERFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AERFirstViewController.xib; sourceTree = "<group>"; };
+		EBE8CF391ACFDFDA0081D62C /* AERCheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERCheckInViewController.h; sourceTree = "<group>"; };
+		EBE8CF3A1ACFDFDA0081D62C /* AERCheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERCheckInViewController.m; sourceTree = "<group>"; };
+		EBE8CF3B1ACFDFDA0081D62C /* AERCheckInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AERCheckInViewController.xib; sourceTree = "<group>"; };
+		EBE8CF431ACFE6C20081D62C /* AERBagStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERBagStatusViewController.h; sourceTree = "<group>"; };
+		EBE8CF441ACFE6C20081D62C /* AERBagStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERBagStatusViewController.m; sourceTree = "<group>"; };
+		EBE8CF451ACFE6C20081D62C /* AERBagStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AERBagStatusViewController.xib; sourceTree = "<group>"; };
+		EBE8CF481ACFEDF70081D62C /* AERFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AERFlight.h; path = ../../../aeriaaDashboard/AERFlight.h; sourceTree = "<group>"; };
+		EBE8CF491ACFEDF80081D62C /* AERFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AERFlight.m; path = ../../../aeriaaDashboard/AERFlight.m; sourceTree = "<group>"; };
+		EBE8CF4A1ACFEDF80081D62C /* AERPassenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AERPassenger.h; path = ../../../aeriaaDashboard/AERPassenger.h; sourceTree = "<group>"; };
+		EBE8CF4B1ACFEDF80081D62C /* AERPassenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AERPassenger.m; path = ../../../aeriaaDashboard/AERPassenger.m; sourceTree = "<group>"; };
+		EBE8CF4F1ACFEE4C0081D62C /* IBE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IBE.png; path = ../../../aeriaaDashboard/IBE.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE8CEEF1ACF19DA0081D62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB32B61F1C5E751D007D01A3 /* libkontakt-ios-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE8CF021ACF19DA0081D62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB32B5E91C5E748B007D01A3 /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B5EA1C5E748B007D01A3 /* Headers */,
+				EB32B61C1C5E748B007D01A3 /* libkontakt-ios-sdk.a */,
+			);
+			name = KontaktSDK;
+			path = "../../../../../../../../../Downloads/SDK-iOS-master/KontaktSDK";
+			sourceTree = "<group>";
+		};
+		EB32B5EA1C5E748B007D01A3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B5EB1C5E748B007D01A3 /* KontaktSDK.h */,
+				EB32B5EC1C5E748B007D01A3 /* KTKAction.h */,
+				EB32B5ED1C5E748B007D01A3 /* KTKActionManager.h */,
+				EB32B5EE1C5E748B007D01A3 /* KTKBeacon.h */,
+				EB32B5EF1C5E748B007D01A3 /* KTKBeaconDevice.h */,
+				EB32B5F01C5E748B007D01A3 /* KTKBeaconManager.h */,
+				EB32B5F11C5E748B007D01A3 /* KTKBeaconProfile.h */,
+				EB32B5F21C5E748B007D01A3 /* KTKBluetoothDevice.h */,
+				EB32B5F31C5E748B007D01A3 /* KTKBluetoothManager.h */,
+				EB32B5F41C5E748B007D01A3 /* KTKCharacteristicDescriptor.h */,
+				EB32B5F51C5E748B007D01A3 /* KTKClient.h */,
+				EB32B5F61C5E748B007D01A3 /* KTKCloudBeacon.h */,
+				EB32B5F71C5E748B007D01A3 /* KTKCompany.h */,
+				EB32B5F81C5E748B007D01A3 /* KTKConverter.h */,
+				EB32B5F91C5E748B007D01A3 /* KTKDataTransferObject.h */,
+				EB32B5FA1C5E748B007D01A3 /* KTKDescriptor.h */,
+				EB32B5FB1C5E748B007D01A3 /* KTKDevice.h */,
+				EB32B5FC1C5E748B007D01A3 /* KTKEddystone.h */,
+				EB32B5FD1C5E748B007D01A3 /* KTKEddystoneDevice.h */,
+				EB32B5FE1C5E748B007D01A3 /* KTKEddystoneFrame.h */,
+				EB32B5FF1C5E748B007D01A3 /* KTKEddystoneRegion.h */,
+				EB32B6001C5E748B007D01A3 /* KTKEddystoneTLM.h */,
+				EB32B6011C5E748B007D01A3 /* KTKEddystoneUID.h */,
+				EB32B6021C5E748B007D01A3 /* KTKEddystoneURL.h */,
+				EB32B6031C5E748B007D01A3 /* KTKEddystoneURLConverter.h */,
+				EB32B6041C5E748B007D01A3 /* KTKError.h */,
+				EB32B6051C5E748B007D01A3 /* KTKFirmware.h */,
+				EB32B6061C5E748B007D01A3 /* KTKHexConverter.h */,
+				EB32B6071C5E748B007D01A3 /* KTKLocationManager.h */,
+				EB32B6081C5E748B007D01A3 /* KTKManager.h */,
+				EB32B6091C5E748B007D01A3 /* KTKNumberConverter.h */,
+				EB32B60A1C5E748B007D01A3 /* KTKNumberDiscreteConverter.h */,
+				EB32B60B1C5E748B007D01A3 /* KTKNumberLinearConverter.h */,
+				EB32B60C1C5E748B007D01A3 /* KTKPaging.h */,
+				EB32B60D1C5E748B007D01A3 /* KTKPagingBeacons.h */,
+				EB32B60E1C5E748B007D01A3 /* KTKPagingConfigs.h */,
+				EB32B60F1C5E748B007D01A3 /* KTKPagingDevices.h */,
+				EB32B6101C5E748B007D01A3 /* KTKPagingVenues.h */,
+				EB32B6111C5E748B007D01A3 /* KTKPublicAction.h */,
+				EB32B6121C5E748B007D01A3 /* KTKPublicBeacon.h */,
+				EB32B6131C5E748B007D01A3 /* KTKPublicVenue.h */,
+				EB32B6141C5E748B007D01A3 /* KTKRegion.h */,
+				EB32B6151C5E748B007D01A3 /* KTKServiceDescriptor.h */,
+				EB32B6161C5E748B007D01A3 /* KTKStringConverter.h */,
+				EB32B6171C5E748B007D01A3 /* KTKSubordinate.h */,
+				EB32B6181C5E748B007D01A3 /* KTKUser.h */,
+				EB32B6191C5E748B007D01A3 /* KTKUUIDConverter.h */,
+				EB32B61A1C5E748B007D01A3 /* KTKVenue.h */,
+				EB32B61B1C5E748B007D01A3 /* KTKVenueBase.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EB8D8F801B90621500F7B6F3 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				EB8D8F7E1B905F5300F7B6F3 /* Settings.h */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		EBE8CEE91ACF19DA0081D62C = {
+			isa = PBXGroup;
+			children = (
+				EB32B6201C5E75AD007D01A3 /* libkontakt-ios-sdk.a */,
+				EB32B61E1C5E74FF007D01A3 /* libkontakt-ios-sdk.a */,
+				EBE8CEF41ACF19DA0081D62C /* SmartBagExperience */,
+				EBE8CF081ACF19DA0081D62C /* SmartBagExperienceTests */,
+				EBE8CEF31ACF19DA0081D62C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE8CEF31ACF19DA0081D62C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8CEF21ACF19DA0081D62C /* SmartBagExperience.app */,
+				EBE8CF051ACF19DA0081D62C /* SmartBagExperienceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE8CEF41ACF19DA0081D62C /* SmartBagExperience */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B5E91C5E748B007D01A3 /* KontaktSDK */,
+				EB8D8F801B90621500F7B6F3 /* settings */,
+				EBE8CF4E1ACFEE200081D62C /* Resources */,
+				EBE8CF1F1ACF1CE10081D62C /* Models */,
+				EBE8CF1E1ACF1CDA0081D62C /* Controllers */,
+				EBE8CF1D1ACF1CD10081D62C /* Views */,
+				EBE8CF171ACF1A4A0081D62C /* SmartBagExperience.entitlements */,
+				EBE8CEF91ACF19DA0081D62C /* AppDelegate.h */,
+				EBE8CEFA1ACF19DA0081D62C /* AppDelegate.m */,
+				EBE8CEFC1ACF19DA0081D62C /* Images.xcassets */,
+				EBE8CEFE1ACF19DA0081D62C /* LaunchScreen.xib */,
+				EBE8CEF51ACF19DA0081D62C /* Supporting Files */,
+			);
+			path = SmartBagExperience;
+			sourceTree = "<group>";
+		};
+		EBE8CEF51ACF19DA0081D62C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8CEF61ACF19DA0081D62C /* Info.plist */,
+				EBE8CEF71ACF19DA0081D62C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBE8CF081ACF19DA0081D62C /* SmartBagExperienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8CF0B1ACF19DA0081D62C /* SmartBagExperienceTests.m */,
+				EBE8CF091ACF19DA0081D62C /* Supporting Files */,
+			);
+			path = SmartBagExperienceTests;
+			sourceTree = "<group>";
+		};
+		EBE8CF091ACF19DA0081D62C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8CF0A1ACF19DA0081D62C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBE8CF1D1ACF1CD10081D62C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8CF2A1ACF4AAB0081D62C /* AERFirstViewController.h */,
+				EBE8CF2B1ACF4AAB0081D62C /* AERFirstViewController.m */,
+				EBE8CF2C1ACF4AAB0081D62C /* AERFirstViewController.xib */,
+				EBE8CF391ACFDFDA0081D62C /* AERCheckInViewController.h */,
+				EBE8CF3A1ACFDFDA0081D62C /* AERCheckInViewController.m */,
+				EBE8CF3B1ACFDFDA0081D62C /* AERCheckInViewController.xib */,
+				EBE8CF431ACFE6C20081D62C /* AERBagStatusViewController.h */,
+				EBE8CF441ACFE6C20081D62C /* AERBagStatusViewController.m */,
+				EBE8CF451ACFE6C20081D62C /* AERBagStatusViewController.xib */,
+				EB8A80F41B485016003A95A0 /* AERAtAirportViewController.h */,
+				EB8A80F51B485016003A95A0 /* AERAtAirportViewController.m */,
+				EB8A80F61B485016003A95A0 /* AERAtAirportViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EBE8CF1E1ACF1CDA0081D62C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EBE8CF1F1ACF1CE10081D62C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8CF481ACFEDF70081D62C /* AERFlight.h */,
+				EBE8CF491ACFEDF80081D62C /* AERFlight.m */,
+				EBE8CF4A1ACFEDF80081D62C /* AERPassenger.h */,
+				EBE8CF4B1ACFEDF80081D62C /* AERPassenger.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EBE8CF4E1ACFEE200081D62C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A81091B486EA2003A95A0 /* checkin.png */,
+				EB8A810A1B486EA2003A95A0 /* myFlights.png */,
+				EB8A810B1B486EA2003A95A0 /* myOffers.png */,
+				EB8A810C1B486EA2003A95A0 /* whereBag.png */,
+				EBE8CF4F1ACFEE4C0081D62C /* IBE.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE8CEF11ACF19DA0081D62C /* SmartBagExperience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE8CF0F1ACF19DA0081D62C /* Build configuration list for PBXNativeTarget "SmartBagExperience" */;
+			buildPhases = (
+				EBE8CEEE1ACF19DA0081D62C /* Sources */,
+				EBE8CEEF1ACF19DA0081D62C /* Frameworks */,
+				EBE8CEF01ACF19DA0081D62C /* Resources */,
+				EB32B5E81C5E72CA007D01A3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBagExperience;
+			productName = SmartBagExperience;
+			productReference = EBE8CEF21ACF19DA0081D62C /* SmartBagExperience.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE8CF041ACF19DA0081D62C /* SmartBagExperienceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE8CF121ACF19DA0081D62C /* Build configuration list for PBXNativeTarget "SmartBagExperienceTests" */;
+			buildPhases = (
+				EBE8CF011ACF19DA0081D62C /* Sources */,
+				EBE8CF021ACF19DA0081D62C /* Frameworks */,
+				EBE8CF031ACF19DA0081D62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE8CF071ACF19DA0081D62C /* PBXTargetDependency */,
+			);
+			name = SmartBagExperienceTests;
+			productName = SmartBagExperienceTests;
+			productReference = EBE8CF051ACF19DA0081D62C /* SmartBagExperienceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE8CEEA1ACF19DA0081D62C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = aeriaa;
+				TargetAttributes = {
+					EBE8CEF11ACF19DA0081D62C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 5MNLSE22C5;
+						SystemCapabilities = {
+							com.apple.Passbook = {
+								enabled = 0;
+							};
+						};
+					};
+					EBE8CF041ACF19DA0081D62C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EBE8CEF11ACF19DA0081D62C;
+					};
+				};
+			};
+			buildConfigurationList = EBE8CEED1ACF19DA0081D62C /* Build configuration list for PBXProject "SmartBagExperience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE8CEE91ACF19DA0081D62C;
+			productRefGroup = EBE8CEF31ACF19DA0081D62C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE8CEF11ACF19DA0081D62C /* SmartBagExperience */,
+				EBE8CF041ACF19DA0081D62C /* SmartBagExperienceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE8CEF01ACF19DA0081D62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8A80F81B485016003A95A0 /* AERAtAirportViewController.xib in Resources */,
+				EB8A810D1B486EA2003A95A0 /* checkin.png in Resources */,
+				EB8A810F1B486EA2003A95A0 /* myOffers.png in Resources */,
+				EBE8CF501ACFEE4C0081D62C /* IBE.png in Resources */,
+				EBE8CF001ACF19DA0081D62C /* LaunchScreen.xib in Resources */,
+				EBE8CF3D1ACFDFDA0081D62C /* AERCheckInViewController.xib in Resources */,
+				EB8A810E1B486EA2003A95A0 /* myFlights.png in Resources */,
+				EB8A81101B486EA2003A95A0 /* whereBag.png in Resources */,
+				EBE8CF471ACFE6C20081D62C /* AERBagStatusViewController.xib in Resources */,
+				EBE8CF2E1ACF4AAB0081D62C /* AERFirstViewController.xib in Resources */,
+				EBE8CEFD1ACF19DA0081D62C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE8CF031ACF19DA0081D62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE8CEEE1ACF19DA0081D62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE8CF2D1ACF4AAB0081D62C /* AERFirstViewController.m in Sources */,
+				EBE8CF3C1ACFDFDA0081D62C /* AERCheckInViewController.m in Sources */,
+				EBE8CF4C1ACFEDF80081D62C /* AERFlight.m in Sources */,
+				EBE8CF461ACFE6C20081D62C /* AERBagStatusViewController.m in Sources */,
+				EB8A80F71B485016003A95A0 /* AERAtAirportViewController.m in Sources */,
+				EBE8CF4D1ACFEDF80081D62C /* AERPassenger.m in Sources */,
+				EBE8CEFB1ACF19DA0081D62C /* AppDelegate.m in Sources */,
+				EBE8CEF81ACF19DA0081D62C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE8CF011ACF19DA0081D62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE8CF0C1ACF19DA0081D62C /* SmartBagExperienceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE8CF071ACF19DA0081D62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE8CEF11ACF19DA0081D62C /* SmartBagExperience */;
+			targetProxy = EBE8CF061ACF19DA0081D62C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBE8CEFE1ACF19DA0081D62C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE8CEFF1ACF19DA0081D62C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE8CF0D1ACF19DA0081D62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBE8CF0E1ACF19DA0081D62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE8CF101ACF19DA0081D62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SmartBagExperience/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pedro,
+					"/Users/pedro/Proyectos/Aeriaa/Blog/dashboard/KontaktSDK/**",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBE8CF111ACF19DA0081D62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SmartBagExperience/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pedro,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EBE8CF131ACF19DA0081D62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartBagExperienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBagExperience.app/SmartBagExperience";
+			};
+			name = Debug;
+		};
+		EBE8CF141ACF19DA0081D62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartBagExperienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBagExperience.app/SmartBagExperience";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE8CEED1ACF19DA0081D62C /* Build configuration list for PBXProject "SmartBagExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE8CF0D1ACF19DA0081D62C /* Debug */,
+				EBE8CF0E1ACF19DA0081D62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE8CF0F1ACF19DA0081D62C /* Build configuration list for PBXNativeTarget "SmartBagExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE8CF101ACF19DA0081D62C /* Debug */,
+				EBE8CF111ACF19DA0081D62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE8CF121ACF19DA0081D62C /* Build configuration list for PBXNativeTarget "SmartBagExperienceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE8CF131ACF19DA0081D62C /* Debug */,
+				EBE8CF141ACF19DA0081D62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE8CEEA1ACF19DA0081D62C /* Project object */;
+}
