@@ -6,3 +6,5 @@ This iOS App (ObjectiveC) uses iBeacons simulating a Checkin process in airports
 
 Read the article here:
 https://aeriaa.com/on-the-use-of-beacons-at-airports-a-star-wars-tribute/
+
+The beacons used are from Kontakt.io
